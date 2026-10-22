@@ -19,3 +19,5 @@ D:\Обучение\C#\Diary\DiaryApp\obj\Debug\net8.0-windows\refint\DiaryApp.d
 D:\Обучение\C#\Diary\DiaryApp\obj\Debug\net8.0-windows\DiaryApp.pdb
 D:\Обучение\C#\Diary\DiaryApp\obj\Debug\net8.0-windows\DiaryApp.genruntimeconfig.cache
 D:\Обучение\C#\Diary\DiaryApp\obj\Debug\net8.0-windows\ref\DiaryApp.dll
+D:\Обучение\C#\Diary\DiaryApp\obj\Debug\net8.0-windows\DiaryApp.Properties.Resources.resources
+D:\Обучение\C#\Diary\DiaryApp\obj\Debug\net8.0-windows\DiaryApp.csproj.GenerateResource.cache

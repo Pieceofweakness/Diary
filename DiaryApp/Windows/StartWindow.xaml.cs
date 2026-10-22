@@ -23,5 +23,20 @@ namespace DiaryApp.Windows
         {
             InitializeComponent();
         }
+
+        private void booksBut_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Окно с книгами в разработке");
+        }
+
+        private void filmsBut_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Окно с фильмами в разработке");
+        }
+
+        private void gamesBut_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Окно с играми в разработке");
+        }
     }
 }

@@ -5,8 +5,23 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:DiaryApp.Windows"
         mc:Ignorable="d"
-        Title="StartWindow" Height="450" Width="800">
-    <Grid>
-        
+        FontFamily="Tahoma"
+        Title="Начальное окно" Height="200" Width="400">
+    <Grid Background="#FCFCEE">
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <TextBlock Grid.Row="0" Grid.ColumnSpan="3" Text="Добро пожаловать!"  FontSize="32" HorizontalAlignment="Center"></TextBlock>
+        <TextBlock Grid.Row="0" Grid.ColumnSpan="3" Text="Выберите категорию"  FontSize="20"  VerticalAlignment="Bottom" HorizontalAlignment="Center" Margin="0 0 0 18"></TextBlock>
+
+        <Button Background="#5D76CB" FontSize="18" Grid.Column="0" Grid.Row="2" Height="75" Width="100" x:Name="filmsBut" Content="Фильмы" Click="filmsBut_Click"></Button>
+        <Button Background="#5D76CB" FontSize="18" Grid.Column="1" Grid.Row="2" Height="75" Width="100" x:Name="gamesBut" Content="Игры" Click="gamesBut_Click"></Button>
+        <Button Background="#5D76CB" FontSize="18" Grid.Column="2" Grid.Row="2" Height="75" Width="100" x:Name="booksBut" Content="Книги" Click="booksBut_Click"></Button>
     </Grid>
 </Window>
