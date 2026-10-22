@@ -1,0 +1,40 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\\u041E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\C#\\Diary\\DiaryApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0D45EFFB-577D-47AE-ABCE-7D0A612DA011}|DiaryApp.csproj|d:\\\u043E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\c#\\diary\\diaryapp\\windows\\startwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0D45EFFB-577D-47AE-ABCE-7D0A612DA011}|DiaryApp.csproj|solutionrelative:windows\\startwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StartWindow.xaml",
+              "DocumentMoniker": "D:\\\u041E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\C#\\Diary\\DiaryApp\\Windows\\StartWindow.xaml",
+              "RelativeDocumentMoniker": "Windows\\StartWindow.xaml",
+              "ToolTip": "D:\\\u041E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\C#\\Diary\\DiaryApp\\Windows\\StartWindow.xaml",
+              "RelativeToolTip": "Windows\\StartWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-10-22T16:56:15.185Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
