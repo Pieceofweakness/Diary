@@ -5,6 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:DiaryApp.Windows"
         mc:Ignorable="d"
+        Closed="Window_Closed"
         Title="Книги" Height="350" Width="800">
     <Grid>
         <Grid.RowDefinitions>

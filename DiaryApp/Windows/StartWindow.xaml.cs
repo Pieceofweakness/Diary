@@ -33,12 +33,16 @@ namespace DiaryApp.Windows
 
         private void filmsBut_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("Окно с фильмами в разработке");
+            FilmsWindow filmsWindow = new FilmsWindow();
+            filmsWindow.Show();
+            this.Hide();
         }
 
         private void gamesBut_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("Окно с играми в разработке");
+            GamesWindow gamesWindow = new GamesWindow();
+            gamesWindow.Show();
+            this.Hide();
         }
     }
 }

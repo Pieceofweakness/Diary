@@ -23,3 +23,7 @@ D:\Обучение\C#\Diary\DiaryApp\obj\Debug\net8.0-windows\DiaryApp.Properti
 D:\Обучение\C#\Diary\DiaryApp\obj\Debug\net8.0-windows\DiaryApp.csproj.GenerateResource.cache
 D:\Обучение\C#\Diary\DiaryApp\obj\Debug\net8.0-windows\Windows\BooksWindow.g.cs
 D:\Обучение\C#\Diary\DiaryApp\obj\Debug\net8.0-windows\Windows\BooksWindow.baml
+D:\Обучение\C#\Diary\DiaryApp\obj\Debug\net8.0-windows\Windows\FilmsWindow.g.cs
+D:\Обучение\C#\Diary\DiaryApp\obj\Debug\net8.0-windows\Windows\GamesWindow.g.cs
+D:\Обучение\C#\Diary\DiaryApp\obj\Debug\net8.0-windows\Windows\FilmsWindow.baml
+D:\Обучение\C#\Diary\DiaryApp\obj\Debug\net8.0-windows\Windows\GamesWindow.baml

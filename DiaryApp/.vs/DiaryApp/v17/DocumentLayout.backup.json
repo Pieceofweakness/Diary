@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "D:\\\u041E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\C#\\Diary\\DiaryApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0D45EFFB-577D-47AE-ABCE-7D0A612DA011}|DiaryApp.csproj|d:\\\u043E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\c#\\diary\\diaryapp\\windows\\bookswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{0D45EFFB-577D-47AE-ABCE-7D0A612DA011}|DiaryApp.csproj|solutionrelative:windows\\bookswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{0D45EFFB-577D-47AE-ABCE-7D0A612DA011}|DiaryApp.csproj|d:\\\u043E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\c#\\diary\\diaryapp\\windows\\gameswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0D45EFFB-577D-47AE-ABCE-7D0A612DA011}|DiaryApp.csproj|solutionrelative:windows\\gameswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0D45EFFB-577D-47AE-ABCE-7D0A612DA011}|DiaryApp.csproj|d:\\\u043E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\c#\\diary\\diaryapp\\windows\\startwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{0D45EFFB-577D-47AE-ABCE-7D0A612DA011}|DiaryApp.csproj|solutionrelative:windows\\startwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{0D45EFFB-577D-47AE-ABCE-7D0A612DA011}|DiaryApp.csproj|d:\\\u043E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\c#\\diary\\diaryapp\\windows\\filmswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0D45EFFB-577D-47AE-ABCE-7D0A612DA011}|DiaryApp.csproj|solutionrelative:windows\\filmswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D45EFFB-577D-47AE-ABCE-7D0A612DA011}|DiaryApp.csproj|d:\\\u043E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\c#\\diary\\diaryapp\\windows\\bookswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0D45EFFB-577D-47AE-ABCE-7D0A612DA011}|DiaryApp.csproj|solutionrelative:windows\\bookswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,25 +31,37 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "GamesWindow.xaml",
+              "DocumentMoniker": "D:\\\u041E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\C#\\Diary\\DiaryApp\\Windows\\GamesWindow.xaml",
+              "RelativeDocumentMoniker": "Windows\\GamesWindow.xaml",
+              "ToolTip": "D:\\\u041E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\C#\\Diary\\DiaryApp\\Windows\\GamesWindow.xaml",
+              "RelativeToolTip": "Windows\\GamesWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-10-25T15:52:28.137Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FilmsWindow.xaml",
+              "DocumentMoniker": "D:\\\u041E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\C#\\Diary\\DiaryApp\\Windows\\FilmsWindow.xaml",
+              "RelativeDocumentMoniker": "Windows\\FilmsWindow.xaml",
+              "ToolTip": "D:\\\u041E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\C#\\Diary\\DiaryApp\\Windows\\FilmsWindow.xaml",
+              "RelativeToolTip": "Windows\\FilmsWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-10-25T15:52:16.408Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "BooksWindow.xaml",
               "DocumentMoniker": "D:\\\u041E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\C#\\Diary\\DiaryApp\\Windows\\BooksWindow.xaml",
               "RelativeDocumentMoniker": "Windows\\BooksWindow.xaml",
               "ToolTip": "D:\\\u041E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\C#\\Diary\\DiaryApp\\Windows\\BooksWindow.xaml",
               "RelativeToolTip": "Windows\\BooksWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-10-25T14:43:32.532Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "StartWindow.xaml",
-              "DocumentMoniker": "D:\\\u041E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\C#\\Diary\\DiaryApp\\Windows\\StartWindow.xaml",
-              "RelativeDocumentMoniker": "Windows\\StartWindow.xaml",
-              "ToolTip": "D:\\\u041E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\C#\\Diary\\DiaryApp\\Windows\\StartWindow.xaml",
-              "RelativeToolTip": "Windows\\StartWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-10-22T16:56:15.185Z",
+              "WhenOpened": "2026-10-25T15:51:55.073Z",
               "EditorCaption": ""
             }
           ]

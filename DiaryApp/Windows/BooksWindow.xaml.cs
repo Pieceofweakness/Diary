@@ -23,6 +23,11 @@ namespace DiaryApp.Windows
         {
             InitializeComponent();
         }
+        private void Window_Closed(object sender, EventArgs e)
+        {
+            StartWindow startWindow = new StartWindow();
+            startWindow.Show();
+        }
 
         private void butAddNewBook_Click(object sender, RoutedEventArgs e)
         {
