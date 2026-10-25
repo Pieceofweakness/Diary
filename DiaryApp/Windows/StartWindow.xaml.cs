@@ -26,7 +26,9 @@ namespace DiaryApp.Windows
 
         private void booksBut_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("Окно с книгами в разработке");
+            BooksWindow booksWindow = new BooksWindow();
+            booksWindow.Show();
+            this.Hide();
         }
 
         private void filmsBut_Click(object sender, RoutedEventArgs e)
