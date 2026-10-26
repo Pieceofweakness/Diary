@@ -1,0 +1,1 @@
+create type status as enum ('droped', 'finished','active' );
