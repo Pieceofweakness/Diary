@@ -77,7 +77,7 @@ namespace DiaryApp.Windows {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/DiaryApp;component/windows/startwindow.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/DiaryApp;V1.0.0.0;component/windows/startwindow.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Windows\StartWindow.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
