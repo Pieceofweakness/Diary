@@ -17,11 +17,35 @@
             <ColumnDefinition></ColumnDefinition>
             <ColumnDefinition></ColumnDefinition>
         </Grid.ColumnDefinitions>
-        <TextBlock Grid.Row="0" Grid.ColumnSpan="3" Text="Добро пожаловать!"  FontSize="32" HorizontalAlignment="Center"></TextBlock>
-        <TextBlock Grid.Row="0" Grid.ColumnSpan="3" Text="Выберите категорию"  FontSize="20"  VerticalAlignment="Bottom" HorizontalAlignment="Center" Margin="0 0 0 18"></TextBlock>
+        
 
-        <Button Background="#5D76CB" FontSize="18" Grid.Column="0" Grid.Row="2" Height="75" Width="100" x:Name="filmsBut" Content="Фильмы" Click="filmsBut_Click"></Button>
-        <Button Background="#5D76CB" FontSize="18" Grid.Column="1" Grid.Row="2" Height="75" Width="100" x:Name="gamesBut" Content="Игры" Click="gamesBut_Click"></Button>
-        <Button Background="#5D76CB" FontSize="18" Grid.Column="2" Grid.Row="2" Height="75" Width="100" x:Name="booksBut" Content="Книги" Click="booksBut_Click"></Button>
+        <Viewbox Stretch="Uniform" Grid.Row="0" Grid.ColumnSpan="3">
+            <Grid Width="900" Height="200">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+
+                <TextBlock Grid.Row="0" Grid.ColumnSpan="3" Text="Добро пожаловать!"  FontSize="55" FontWeight="Bold" VerticalAlignment="Center"  HorizontalAlignment="Center"></TextBlock>
+                <TextBlock Grid.Row="1" Grid.ColumnSpan="3" Text="Выберите категорию"  FontSize="45" FontWeight="Bold" VerticalAlignment="Center" HorizontalAlignment="Center"></TextBlock>
+
+            </Grid>
+        </Viewbox>
+        
+        <Viewbox Stretch="Uniform" Grid.Row="1" Grid.ColumnSpan="3">
+            <Grid Width="800" Height="100">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <Button Background="#5D76CB" FontSize="35" FontWeight="Bold" Grid.Column="0" Grid.Row="2" Height="100" Width="200" x:Name="filmsBut" Content="Фильмы" Click="filmsBut_Click"></Button>
+                <Button Background="#5D76CB" FontSize="35" FontWeight="Bold" Grid.Column="1" Grid.Row="2" Height="100" Width="200" x:Name="gamesBut" Content="Игры" Click="gamesBut_Click"></Button>
+                <Button Background="#5D76CB" FontSize="35" FontWeight="Bold" Grid.Column="2" Grid.Row="2" Height="100" Width="200" x:Name="booksBut" Content="Книги" Click="booksBut_Click"></Button>
+            </Grid>
+        </Viewbox>
+
+
     </Grid>
 </Window>
