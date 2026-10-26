@@ -11,6 +11,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using DiaryApp.Data;
 
 namespace DiaryApp.Windows
 {
@@ -26,9 +27,13 @@ namespace DiaryApp.Windows
 
         private void booksBut_Click(object sender, RoutedEventArgs e)
         {
-            BooksWindow booksWindow = new BooksWindow();
-            booksWindow.Show();
-            this.Hide();
+            TestConnection ts = new TestConnection();
+            MessageBox.Show(ts.Test());
+
+
+            //BooksWindow booksWindow = new BooksWindow();
+            //booksWindow.Show();
+            //this.Hide();
         }
 
         private void filmsBut_Click(object sender, RoutedEventArgs e)

@@ -27,3 +27,10 @@ D:\Обучение\C#\Diary\DiaryApp\obj\Debug\net8.0-windows\Windows\FilmsWind
 D:\Обучение\C#\Diary\DiaryApp\obj\Debug\net8.0-windows\Windows\GamesWindow.g.cs
 D:\Обучение\C#\Diary\DiaryApp\obj\Debug\net8.0-windows\Windows\FilmsWindow.baml
 D:\Обучение\C#\Diary\DiaryApp\obj\Debug\net8.0-windows\Windows\GamesWindow.baml
+D:\Обучение\C#\Diary\DiaryApp\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Обучение\C#\Diary\DiaryApp\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Обучение\C#\Diary\DiaryApp\bin\Debug\net8.0-windows\Npgsql.dll
+D:\Обучение\C#\Diary\DiaryApp\bin\Debug\net8.0-windows\System.Diagnostics.DiagnosticSource.dll
+D:\Обучение\C#\Diary\DiaryApp\obj\Debug\net8.0-windows\DiaryApp.csproj.AssemblyReference.cache
+D:\Обучение\C#\Diary\DiaryApp\obj\Debug\net8.0-windows\DiaryApp.csproj.Up2Date
+D:\Обучение\C#\Diary\DiaryApp\bin\Debug\net8.0-windows\Dapper.dll

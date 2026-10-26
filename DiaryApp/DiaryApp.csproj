@@ -11,8 +11,11 @@
 
   <ItemGroup>
     <Folder Include="bin\Debug\net8.0-windows\" />
-    <Folder Include="Models\" />
-    <Folder Include="Data\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="2.1.89" />
+    <PackageReference Include="Npgsql" Version="10.0.3" />
   </ItemGroup>
 
   <ItemGroup>
