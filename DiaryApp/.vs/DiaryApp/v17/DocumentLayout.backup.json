@@ -7,6 +7,10 @@
       "RelativeMoniker": "D:0:0:{0D45EFFB-577D-47AE-ABCE-7D0A612DA011}|DiaryApp.csproj|solutionrelative:windows\\startwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{0D45EFFB-577D-47AE-ABCE-7D0A612DA011}|DiaryApp.csproj|d:\\\u043E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\c#\\diary\\diaryapp\\windows\\startwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0D45EFFB-577D-47AE-ABCE-7D0A612DA011}|DiaryApp.csproj|solutionrelative:windows\\startwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0D45EFFB-577D-47AE-ABCE-7D0A612DA011}|DiaryApp.csproj|d:\\\u043E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\c#\\diary\\diaryapp\\data\\testconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0D45EFFB-577D-47AE-ABCE-7D0A612DA011}|DiaryApp.csproj|solutionrelative:data\\testconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -21,10 +25,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{0D45EFFB-577D-47AE-ABCE-7D0A612DA011}|DiaryApp.csproj|d:\\\u043E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\c#\\diary\\diaryapp\\models\\film.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0D45EFFB-577D-47AE-ABCE-7D0A612DA011}|DiaryApp.csproj|solutionrelative:models\\film.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0D45EFFB-577D-47AE-ABCE-7D0A612DA011}|DiaryApp.csproj|d:\\\u043E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\c#\\diary\\diaryapp\\windows\\startwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{0D45EFFB-577D-47AE-ABCE-7D0A612DA011}|DiaryApp.csproj|solutionrelative:windows\\startwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0D45EFFB-577D-47AE-ABCE-7D0A612DA011}|DiaryApp.csproj|d:\\\u043E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\c#\\diary\\diaryapp\\windows\\gameswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -54,20 +54,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "TestConnection.cs",
               "DocumentMoniker": "D:\\\u041E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\C#\\Diary\\DiaryApp\\Data\\TestConnection.cs",
               "RelativeDocumentMoniker": "Data\\TestConnection.cs",
               "ToolTip": "D:\\\u041E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\C#\\Diary\\DiaryApp\\Data\\TestConnection.cs",
               "RelativeToolTip": "Data\\TestConnection.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAAwBcAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACAAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-26T12:02:04.601Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Game.cs",
               "DocumentMoniker": "D:\\\u041E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\C#\\Diary\\DiaryApp\\Models\\Game.cs",
               "RelativeDocumentMoniker": "Models\\Game.cs",
@@ -80,7 +80,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Book.cs",
               "DocumentMoniker": "D:\\\u041E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\C#\\Diary\\DiaryApp\\Models\\Book.cs",
               "RelativeDocumentMoniker": "Models\\Book.cs",
@@ -93,7 +93,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Film.cs",
               "DocumentMoniker": "D:\\\u041E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\C#\\Diary\\DiaryApp\\Models\\Film.cs",
               "RelativeDocumentMoniker": "Models\\Film.cs",
@@ -106,7 +106,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "StartWindow.xaml",
               "DocumentMoniker": "D:\\\u041E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\C#\\Diary\\DiaryApp\\Windows\\StartWindow.xaml",
               "RelativeDocumentMoniker": "Windows\\StartWindow.xaml",
@@ -124,7 +124,7 @@
               "RelativeDocumentMoniker": "Windows\\StartWindow.xaml.cs",
               "ToolTip": "D:\\\u041E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\C#\\Diary\\DiaryApp\\Windows\\StartWindow.xaml.cs",
               "RelativeToolTip": "Windows\\StartWindow.xaml.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAAAB8AAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAABQAAAAAAAAAAAAAAB4AAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-25T15:53:04.27Z",
               "EditorCaption": ""
