@@ -14,7 +14,7 @@ namespace DiaryApp.Models
         public DateOnly start { get; set; }
         public DateOnly finish { get; set; }
         public string status { get; set; }
-        public double grade { get; set; }
+        public float grade { get; set; }
         public string note { get; set; }
 
     }

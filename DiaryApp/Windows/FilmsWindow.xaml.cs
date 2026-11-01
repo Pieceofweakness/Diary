@@ -11,6 +11,10 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using DiaryApp.Models;
+using DiaryApp.Data;
+using DiaryApp.Data.Films;
+using System.Collections.ObjectModel;
 
 namespace DiaryApp.Windows
 {
@@ -19,9 +23,16 @@ namespace DiaryApp.Windows
     /// </summary>
     public partial class FilmsWindow : Window
     {
+        private FilmsRepository filmsRepository;
+        private ObservableCollection<Film> films;
         public FilmsWindow()
         {
             InitializeComponent();
+            filmsRepository = new FilmsRepository();
+            films = new ObservableCollection<Film>(filmsRepository.GetAllFilms());
+
+            FilmsGrid.ItemsSource = films;
+
         }
         private void Window_Closed(object sender, EventArgs e)
         {
@@ -31,17 +42,71 @@ namespace DiaryApp.Windows
 
         private void butAddNewFilm_Click(object sender, RoutedEventArgs e)
         {
+            Film film = new Film();
+            film.name_film = "test";
+            film.director = "test";
+            film.start = new DateOnly(1999, 01, 01);
+            film.finish = new DateOnly(2000, 01, 01);
+            film.status = "finished";
+            film.grade = 1.0f;
+            film.note = "WOOOW";
 
+            try
+            {
+                filmsRepository.AddFilm(film);
+                MessageBox.Show("ПОЛУЧИЛОСЬ");
+            }
+            catch(Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+            
         }
 
         private void butEditFilm_Click(object sender, RoutedEventArgs e)
         {
+            Film film = new Film();
+            film.id_film = 5;
+            film.name_film = "test123";
+            film.director = "test123";
+            film.start = new DateOnly(1999, 01, 01);
+            film.finish = new DateOnly(2000, 01, 01);
+            film.status = "droped";
+            film.grade = 1.234f;
+            film.note = "shit";
+
+            try
+            {
+                filmsRepository.UpdateFilm(film);
+                MessageBox.Show("ПОЛУЧИЛОСЬ");
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+
 
         }
 
         private void butDeleteFilm_Click(object sender, RoutedEventArgs e)
         {
-
+            if (FilmsGrid.SelectedItem is Film selectedFilm)
+            {
+                try
+                {
+                    bool success = filmsRepository.DeleteFilm(selectedFilm);
+                    if (success)
+                    {
+                        films.Remove(selectedFilm);
+                    }
+                }
+                catch(Exception ex)
+                {
+                    MessageBox.Show(ex.Message);
+                }
+                
+            }
         }
+
     }
 }

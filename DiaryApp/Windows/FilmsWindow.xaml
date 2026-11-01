@@ -19,8 +19,16 @@
             <ColumnDefinition></ColumnDefinition>
         </Grid.ColumnDefinitions>
 
-        <DataGrid Grid.Row="0" Grid.RowSpan="2" Grid.ColumnSpan="3" Background="Aqua" Width="auto" Height="auto" Margin="25 0 25 0">
-
+        <DataGrid x:Name="FilmsGrid" AutoGenerateColumns="False" IsReadOnly="True" SelectionMode="Single" Grid.Row="0" Grid.RowSpan="2" Grid.ColumnSpan="3" Width="auto" Height="auto" Margin="25 0 25 0">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Название" Binding="{Binding name_film}" Width="*"/>
+                <DataGridTextColumn Header="Режиссёр" Binding="{Binding director}" Width="*"/>
+                <DataGridTextColumn Header="Начало" Binding="{Binding start}" Width="Auto"/>
+                <DataGridTextColumn Header="Окончание" Binding="{Binding finish}" Width="Auto"/>
+                <DataGridTextColumn Header="Статус" Binding="{Binding status}" Width="Auto"/>
+                <DataGridTextColumn Header="Оценка" Binding="{Binding grade}" Width="Auto"/>
+                <DataGridTextColumn Header="Заметка" Binding="{Binding note}" Width="*"/>
+            </DataGrid.Columns>
         </DataGrid>
 
         <Viewbox Stretch="Uniform" Grid.Row="2" Grid.ColumnSpan="3">
