@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "D:\\\u041E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\C#\\Diary\\DiaryApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0D45EFFB-577D-47AE-ABCE-7D0A612DA011}|DiaryApp.csproj|d:\\\u043E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\c#\\diary\\diaryapp\\windows\\filmswindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0D45EFFB-577D-47AE-ABCE-7D0A612DA011}|DiaryApp.csproj|solutionrelative:windows\\filmswindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0D45EFFB-577D-47AE-ABCE-7D0A612DA011}|DiaryApp.csproj|d:\\\u043E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\c#\\diary\\diaryapp\\windows\\filmswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{0D45EFFB-577D-47AE-ABCE-7D0A612DA011}|DiaryApp.csproj|solutionrelative:windows\\filmswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0D45EFFB-577D-47AE-ABCE-7D0A612DA011}|DiaryApp.csproj|d:\\\u043E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\c#\\diary\\diaryapp\\data\\films\\filmsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0D45EFFB-577D-47AE-ABCE-7D0A612DA011}|DiaryApp.csproj|solutionrelative:data\\films\\filmsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D45EFFB-577D-47AE-ABCE-7D0A612DA011}|DiaryApp.csproj|d:\\\u043E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\c#\\diary\\diaryapp\\windows\\filmswindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D45EFFB-577D-47AE-ABCE-7D0A612DA011}|DiaryApp.csproj|solutionrelative:windows\\filmswindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0D45EFFB-577D-47AE-ABCE-7D0A612DA011}|DiaryApp.csproj|d:\\\u043E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\c#\\diary\\diaryapp\\windows\\startwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -26,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,28 +34,29 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "FilmsWindow.xaml.cs",
               "DocumentMoniker": "D:\\\u041E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\C#\\Diary\\DiaryApp\\Windows\\FilmsWindow.xaml.cs",
               "RelativeDocumentMoniker": "Windows\\FilmsWindow.xaml.cs",
               "ToolTip": "D:\\\u041E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\C#\\Diary\\DiaryApp\\Windows\\FilmsWindow.xaml.cs",
               "RelativeToolTip": "Windows\\FilmsWindow.xaml.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAAEAAAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAAEkAAAAAAAAAAAA5wF4AAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-11-01T12:56:10.579Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "FilmsRepository.cs",
               "DocumentMoniker": "D:\\\u041E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\C#\\Diary\\DiaryApp\\Data\\Films\\FilmsRepository.cs",
               "RelativeDocumentMoniker": "Data\\Films\\FilmsRepository.cs",
               "ToolTip": "D:\\\u041E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\C#\\Diary\\DiaryApp\\Data\\Films\\FilmsRepository.cs",
               "RelativeToolTip": "Data\\Films\\FilmsRepository.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAADwvxAAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAABsAAAAAAAAAAAAUwBAAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-30T15:09:07.536Z"
+              "WhenOpened": "2026-10-30T15:09:07.536Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -70,7 +71,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "FilmsWindow.xaml",
               "DocumentMoniker": "D:\\\u041E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\C#\\Diary\\DiaryApp\\Windows\\FilmsWindow.xaml",
               "RelativeDocumentMoniker": "Windows\\FilmsWindow.xaml",

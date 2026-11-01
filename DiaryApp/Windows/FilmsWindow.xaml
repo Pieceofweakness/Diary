@@ -42,10 +42,10 @@
             <DataGrid.Columns>
                 <DataGridTextColumn Header="Название" Binding="{Binding name_film}" Width="*"/>
                 <DataGridTextColumn Header="Режиссёр" Binding="{Binding director}" Width="*"/>
-                <DataGridTextColumn Header="Начало" Binding="{Binding start}" Width="Auto"/>
-                <DataGridTextColumn Header="Окончание" Binding="{Binding finish}" Width="Auto"/>
-                <DataGridTextColumn Header="Статус" Binding="{Binding status}" Width="Auto"/>
-                <DataGridTextColumn Header="Оценка" Binding="{Binding grade}" Width="Auto"/>
+                <DataGridTextColumn Header="Начало" Binding="{Binding start}" Width="*"/>
+                <DataGridTextColumn Header="Окончание" Binding="{Binding finish}" Width="*"/>
+                <DataGridTextColumn Header="Статус" Binding="{Binding status}" Width="*"/>
+                <DataGridTextColumn Header="Оценка" Binding="{Binding grade}" Width="*"/>
                 <DataGridTextColumn Header="Заметка" Binding="{Binding note}" Width="*"/>
             </DataGrid.Columns>
         </DataGrid>
