@@ -26,11 +26,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FilmsWindow.xaml.cs",
+              "DocumentMoniker": "D:\\\u041E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\C#\\Diary\\DiaryApp\\Windows\\FilmsWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Windows\\FilmsWindow.xaml.cs",
+              "ToolTip": "D:\\\u041E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\C#\\Diary\\DiaryApp\\Windows\\FilmsWindow.xaml.cs",
+              "RelativeToolTip": "Windows\\FilmsWindow.xaml.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAEAAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-01T12:56:10.579Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -42,21 +55,7 @@
               "RelativeToolTip": "Data\\Films\\FilmsRepository.cs",
               "ViewState": "AgIAAAIAAAAAAAAAAADwvxAAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-30T15:09:07.536Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "FilmsWindow.xaml.cs",
-              "DocumentMoniker": "D:\\\u041E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\C#\\Diary\\DiaryApp\\Windows\\FilmsWindow.xaml.cs",
-              "RelativeDocumentMoniker": "Windows\\FilmsWindow.xaml.cs",
-              "ToolTip": "D:\\\u041E\u0431\u0443\u0447\u0435\u043D\u0438\u0435\\C#\\Diary\\DiaryApp\\Windows\\FilmsWindow.xaml.cs",
-              "RelativeToolTip": "Windows\\FilmsWindow.xaml.cs",
-              "ViewState": "AgIAAE8AAAAAAAAAAAAkwGYAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-01T12:56:10.579Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-30T15:09:07.536Z"
             },
             {
               "$type": "Document",

@@ -19,7 +19,26 @@
             <ColumnDefinition></ColumnDefinition>
         </Grid.ColumnDefinitions>
 
-        <DataGrid x:Name="FilmsGrid" AutoGenerateColumns="False" IsReadOnly="True" SelectionMode="Single" Grid.Row="0" Grid.RowSpan="2" Grid.ColumnSpan="3" Width="auto" Height="auto" Margin="25 0 25 0">
+        <DataGrid 
+            x:Name="FilmsGrid" 
+            AutoGenerateColumns="False" 
+            IsReadOnly="True" 
+            SelectionMode="Single"
+            CanUserAddRows="False"
+            GridLinesVisibility="None"
+            HeadersVisibility="Column"
+            RowHeight="40"
+            AlternatingRowBackground="Pink"
+            Background="White"
+            BorderThickness="0"
+            HorizontalGridLinesBrush="Aqua"
+            Grid.Row="0" 
+            Grid.RowSpan="2" 
+            Grid.ColumnSpan="3" 
+            Width="auto" 
+            Height="auto" 
+            Margin="25 0 25 0">
+            
             <DataGrid.Columns>
                 <DataGridTextColumn Header="Название" Binding="{Binding name_film}" Width="*"/>
                 <DataGridTextColumn Header="Режиссёр" Binding="{Binding director}" Width="*"/>

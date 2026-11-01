@@ -54,7 +54,15 @@ namespace DiaryApp.Windows
             try
             {
                 filmsRepository.AddFilm(film);
-                MessageBox.Show("ПОЛУЧИЛОСЬ");
+                var updatedList = filmsRepository.GetAllFilms();
+                films.Clear();
+
+                foreach (var i in updatedList)
+                {
+                    films.Add(i);
+                }
+
+                MessageBox.Show("Фильм добавлен");
             }
             catch(Exception ex)
             {
@@ -78,7 +86,17 @@ namespace DiaryApp.Windows
             try
             {
                 filmsRepository.UpdateFilm(film);
-                MessageBox.Show("ПОЛУЧИЛОСЬ");
+
+                var updatedList = filmsRepository.GetAllFilms();
+                films.Clear();
+
+                foreach(var i in updatedList)
+                {
+                    films.Add(i);
+                }
+
+                MessageBox.Show("Фильм изменен");
+                
             }
             catch (Exception ex)
             {
