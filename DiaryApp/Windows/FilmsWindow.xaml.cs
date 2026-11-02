@@ -110,19 +110,29 @@ namespace DiaryApp.Windows
         {
             if (FilmsGrid.SelectedItem is Film selectedFilm)
             {
-                try
+                var acceptWindow = MessageBox.Show($"Вы уверены в удалении фильма {selectedFilm.name_film}?","Подтверждение: ", MessageBoxButton.YesNo);
+
+                if (acceptWindow == MessageBoxResult.Yes)
                 {
-                    bool success = filmsRepository.DeleteFilm(selectedFilm);
-                    if (success)
+                    try
                     {
-                        films.Remove(selectedFilm);
+                        bool success = filmsRepository.DeleteFilm(selectedFilm);
+                        if (success)
+                        {
+                            films.Remove(selectedFilm);
+                            MessageBox.Show($"Фильм {selectedFilm.name_film} успешно удален");
+                        }
+                    }
+                    catch (Exception ex)
+                    {
+                        MessageBox.Show($"Не удалось удалить фильм, причина - {ex.Message}");
                     }
                 }
-                catch(Exception ex)
-                {
-                    MessageBox.Show(ex.Message);
-                }
                 
+            }
+            else
+            {
+                MessageBox.Show("Сначала выберите фильм для удаления");
             }
         }
 
