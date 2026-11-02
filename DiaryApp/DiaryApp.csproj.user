@@ -2,13 +2,13 @@
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup />
   <ItemGroup>
-    <Compile Update="Windows\BooksWindow.xaml.cs">
+    <Compile Update="Windows\Books\BooksWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="Windows\FilmsWindow.xaml.cs">
+    <Compile Update="Windows\Films\FilmsWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="Windows\GamesWindow.xaml.cs">
+    <Compile Update="Windows\Games\GamesWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="Windows\StartWindow.xaml.cs">
