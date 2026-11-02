@@ -5,6 +5,9 @@
     <Compile Update="Windows\Books\BooksWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="Windows\Films\AddAndEditFilmWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="Windows\Films\FilmsWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>

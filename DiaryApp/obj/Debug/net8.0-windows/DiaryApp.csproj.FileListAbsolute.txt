@@ -21,12 +21,6 @@ D:\Обучение\C#\Diary\DiaryApp\obj\Debug\net8.0-windows\DiaryApp.genrunti
 D:\Обучение\C#\Diary\DiaryApp\obj\Debug\net8.0-windows\ref\DiaryApp.dll
 D:\Обучение\C#\Diary\DiaryApp\obj\Debug\net8.0-windows\DiaryApp.Properties.Resources.resources
 D:\Обучение\C#\Diary\DiaryApp\obj\Debug\net8.0-windows\DiaryApp.csproj.GenerateResource.cache
-D:\Обучение\C#\Diary\DiaryApp\obj\Debug\net8.0-windows\Windows\BooksWindow.g.cs
-D:\Обучение\C#\Diary\DiaryApp\obj\Debug\net8.0-windows\Windows\BooksWindow.baml
-D:\Обучение\C#\Diary\DiaryApp\obj\Debug\net8.0-windows\Windows\FilmsWindow.g.cs
-D:\Обучение\C#\Diary\DiaryApp\obj\Debug\net8.0-windows\Windows\GamesWindow.g.cs
-D:\Обучение\C#\Diary\DiaryApp\obj\Debug\net8.0-windows\Windows\FilmsWindow.baml
-D:\Обучение\C#\Diary\DiaryApp\obj\Debug\net8.0-windows\Windows\GamesWindow.baml
 D:\Обучение\C#\Diary\DiaryApp\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 D:\Обучение\C#\Diary\DiaryApp\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
 D:\Обучение\C#\Diary\DiaryApp\bin\Debug\net8.0-windows\Npgsql.dll
@@ -34,3 +28,11 @@ D:\Обучение\C#\Diary\DiaryApp\bin\Debug\net8.0-windows\System.Diagnostic
 D:\Обучение\C#\Diary\DiaryApp\obj\Debug\net8.0-windows\DiaryApp.csproj.AssemblyReference.cache
 D:\Обучение\C#\Diary\DiaryApp\obj\Debug\net8.0-windows\DiaryApp.csproj.Up2Date
 D:\Обучение\C#\Diary\DiaryApp\bin\Debug\net8.0-windows\Dapper.dll
+D:\Обучение\C#\Diary\DiaryApp\obj\Debug\net8.0-windows\Windows\Books\BooksWindow.g.cs
+D:\Обучение\C#\Diary\DiaryApp\obj\Debug\net8.0-windows\Windows\Films\AddAndEditFilmWindow.g.cs
+D:\Обучение\C#\Diary\DiaryApp\obj\Debug\net8.0-windows\Windows\Films\FilmsWindow.g.cs
+D:\Обучение\C#\Diary\DiaryApp\obj\Debug\net8.0-windows\Windows\Games\GamesWindow.g.cs
+D:\Обучение\C#\Diary\DiaryApp\obj\Debug\net8.0-windows\Windows\Books\BooksWindow.baml
+D:\Обучение\C#\Diary\DiaryApp\obj\Debug\net8.0-windows\Windows\Films\AddAndEditFilmWindow.baml
+D:\Обучение\C#\Diary\DiaryApp\obj\Debug\net8.0-windows\Windows\Films\FilmsWindow.baml
+D:\Обучение\C#\Diary\DiaryApp\obj\Debug\net8.0-windows\Windows\Games\GamesWindow.baml

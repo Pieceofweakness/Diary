@@ -14,7 +14,9 @@ using System.Windows.Shapes;
 using DiaryApp.Models;
 using DiaryApp.Data;
 using DiaryApp.Data.Films;
+using DiaryApp.Windows;
 using System.Collections.ObjectModel;
+using DiaryApp.Windows.Films;
 
 namespace DiaryApp.Windows
 {
@@ -42,32 +44,8 @@ namespace DiaryApp.Windows
 
         private void butAddNewFilm_Click(object sender, RoutedEventArgs e)
         {
-            Film film = new Film();
-            film.name_film = "test";
-            film.director = "test";
-            film.start = new DateOnly(1999, 01, 01);
-            film.finish = new DateOnly(2000, 01, 01);
-            film.status = "finished";
-            film.grade = 1.0f;
-            film.note = "WOOOW";
-
-            try
-            {
-                filmsRepository.AddFilm(film);
-                var updatedList = filmsRepository.GetAllFilms();
-                films.Clear();
-
-                foreach (var i in updatedList)
-                {
-                    films.Add(i);
-                }
-
-                MessageBox.Show("Фильм добавлен");
-            }
-            catch(Exception ex)
-            {
-                MessageBox.Show(ex.Message);
-            }
+            AddAndEditFilmWindow addNewFilm = new AddAndEditFilmWindow();
+            addNewFilm.Show();
             
         }
 
