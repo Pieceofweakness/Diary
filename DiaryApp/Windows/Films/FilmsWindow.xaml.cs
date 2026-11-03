@@ -44,9 +44,10 @@ namespace DiaryApp.Windows
 
         private void butAddNewFilm_Click(object sender, RoutedEventArgs e)
         {
-            AddAndEditFilmWindow addNewFilm = new AddAndEditFilmWindow();
-            addNewFilm.Show();
             
+            AddAndEditFilmWindow addNewFilm = new AddAndEditFilmWindow(true);
+            addNewFilm.Show();
+            this.Hide();
         }
 
         private void butEditFilm_Click(object sender, RoutedEventArgs e)

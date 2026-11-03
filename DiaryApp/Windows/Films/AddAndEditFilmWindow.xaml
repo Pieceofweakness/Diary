@@ -5,6 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:DiaryApp.Windows.Films"
         mc:Ignorable="d"
+        Closed="Window_Closed"
         Title="AddAndEditFilmWindow" Height="500" Width="350">
     <Grid Background="#FCFCEE">
 
@@ -29,31 +30,31 @@
 
 
                 <TextBlock Grid.Row="0" FontSize="15" FontWeight="Bold" VerticalAlignment="Center" >Название</TextBlock>
-                <TextBox Grid.Row="0" Grid.Column="1" Background="White"  VerticalAlignment="Center"></TextBox>
+                <TextBox x:Name="txtNameFilm" Grid.Row="0" Grid.Column="1" Background="White"  VerticalAlignment="Center"></TextBox>
 
                 <TextBlock Grid.Row="1" FontSize="15" FontWeight="Bold" VerticalAlignment="Center">Режиссер</TextBlock>
-                <TextBox Grid.Row="1" Grid.Column="1" Background="White" VerticalAlignment="Center"></TextBox>
+                <TextBox x:Name="txtDirectorFilm" Grid.Row="1" Grid.Column="1" Background="White" VerticalAlignment="Center"></TextBox>
 
                 <TextBlock Grid.Row="2" FontSize="15" FontWeight="Bold" VerticalAlignment="Center">Начало</TextBlock>
-                <DatePicker Grid.Row="2" Grid.Column="1" VerticalAlignment="Center"></DatePicker>
+                <DatePicker x:Name="dateStartFilm" Grid.Row="2" Grid.Column="1" VerticalAlignment="Center"></DatePicker>
 
 
                 <TextBlock Grid.Row="3" FontSize="15" FontWeight="Bold" VerticalAlignment="Center">Конец</TextBlock>
-                <DatePicker Grid.Row="3" Grid.Column="1" VerticalAlignment="Center" ></DatePicker>
+                <DatePicker x:Name="dateFinishFilm" Grid.Row="3" Grid.Column="1" VerticalAlignment="Center" ></DatePicker>
 
                 <TextBlock Grid.Row="4" FontSize="15" FontWeight="Bold"  VerticalAlignment="Center">Статус</TextBlock>
-                <ComboBox Grid.Row="4" Grid.Column="1" Background="White" VerticalAlignment="Center" >
-                    <TextBlock>В процессе</TextBlock>
-                    <TextBlock>Брошен</TextBlock>
-                    <TextBlock>Завершен</TextBlock>
+                <ComboBox x:Name="cmbStatusFilm" Grid.Row="4" Grid.Column="1" Background="White" VerticalAlignment="Center" >
+                    <ComboBoxItem>В процессе</ComboBoxItem>
+                    <ComboBoxItem>Брошен</ComboBoxItem>
+                    <ComboBoxItem>Завершен</ComboBoxItem>
                 </ComboBox>
 
 
                 <TextBlock Grid.Row="5" FontSize="15" FontWeight="Bold"  VerticalAlignment="Center">Оценка</TextBlock>
-                <TextBox Grid.Row="5" Grid.Column="1" Background="White" VerticalAlignment="Center" ></TextBox>
+                <Slider x:Name="slidGradeFilm" Grid.Row="5" Grid.Column="1" Background="White" VerticalAlignment="Center" Value="0" Minimum="0" Maximum="10" AutoToolTipPlacement="TopLeft"  AutoToolTipPrecision="1" ></Slider>
 
                 <TextBlock Grid.Row="6" FontSize="15" FontWeight="Bold" Margin="0 5 0 0">Заметка</TextBlock>
-                <TextBox Grid.Row="6" Grid.Column="0" Grid.ColumnSpan="2" Background="White" Margin="0 30 0 10" TextWrapping="Wrap"></TextBox>
+                <TextBox x:Name="txtNoteFilm" Grid.Row="6" Grid.Column="0" Grid.ColumnSpan="2" Background="White" Margin="0 30 0 10" TextWrapping="Wrap"></TextBox>
 
 
 
