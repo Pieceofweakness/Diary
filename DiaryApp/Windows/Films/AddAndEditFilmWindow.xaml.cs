@@ -19,9 +19,30 @@ namespace DiaryApp.Windows.Films
     /// </summary>
     public partial class AddAndEditFilmWindow : Window
     {
+        public bool flag = true;
         public AddAndEditFilmWindow()
         {
             InitializeComponent();
+
+            if (flag)
+            {
+                Title = "ADDDDDD";
+            }
+
         }
+
+        private void butAddOrSave_Click(object sender, RoutedEventArgs e)
+        {
+            if (flag)
+            {
+                butAddOrSave.Content = "SAVEEE";
+            }
+        }
+
+        private void butCancel_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
     }
 }

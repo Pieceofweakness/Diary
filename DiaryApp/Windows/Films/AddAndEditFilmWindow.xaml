@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:DiaryApp.Windows.Films"
         mc:Ignorable="d"
         Title="AddAndEditFilmWindow" Height="500" Width="350">
-    <Grid>
+    <Grid Background="#FCFCEE">
 
         <Viewbox Stretch="Uniform" Margin="10">
             <Grid Width="250" Height="350">
@@ -22,51 +22,46 @@
 
                 </Grid.RowDefinitions>
                 <Grid.ColumnDefinitions>
-                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition Width="100"></ColumnDefinition>
                     <ColumnDefinition></ColumnDefinition>
                 </Grid.ColumnDefinitions>
 
 
 
-                <TextBlock Grid.Row="0" FontSize="15" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Center" >Название</TextBlock>
-                <TextBox Grid.Row="0" Grid.Column="1" Background="Aqua"  VerticalAlignment="Center" Margin="10 0 10 0"></TextBox>
+                <TextBlock Grid.Row="0" FontSize="15" FontWeight="Bold" VerticalAlignment="Center" >Название</TextBlock>
+                <TextBox Grid.Row="0" Grid.Column="1" Background="White"  VerticalAlignment="Center"></TextBox>
 
-                <TextBlock Grid.Row="1" FontSize="15" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Center">Режиссер</TextBlock>
-                <TextBox Grid.Row="1" Grid.Column="1" Background="Aqua" VerticalAlignment="Center" Margin="10 0 10 0"></TextBox>
+                <TextBlock Grid.Row="1" FontSize="15" FontWeight="Bold" VerticalAlignment="Center">Режиссер</TextBlock>
+                <TextBox Grid.Row="1" Grid.Column="1" Background="White" VerticalAlignment="Center"></TextBox>
 
-                <TextBlock Grid.Row="2" FontSize="15" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Center">Начало</TextBlock>
-                <DatePicker Grid.Row="2" Grid.Column="1" VerticalAlignment="Center" Margin="10 0 10 0"></DatePicker>
-
-
-                <TextBlock Grid.Row="3" FontSize="15" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Center">Конец</TextBlock>
-                <DatePicker Grid.Row="3" Grid.Column="1" VerticalAlignment="Center" Margin="10 0 10 0"></DatePicker>
-
-                <TextBlock Grid.Row="4" FontSize="15" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Center">Статус</TextBlock>
-                <ComboBox Grid.Row="4" Grid.Column="1" Background="Aqua" VerticalAlignment="Center" Margin="10 0 10 0"></ComboBox>
+                <TextBlock Grid.Row="2" FontSize="15" FontWeight="Bold" VerticalAlignment="Center">Начало</TextBlock>
+                <DatePicker Grid.Row="2" Grid.Column="1" VerticalAlignment="Center"></DatePicker>
 
 
-                <TextBlock Grid.Row="5" FontSize="15" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Center">Оценка</TextBlock>
-                <TextBox Grid.Row="5" Grid.Column="1" Background="Aqua" VerticalAlignment="Center" Margin="10 0 10 0"></TextBox>
+                <TextBlock Grid.Row="3" FontSize="15" FontWeight="Bold" VerticalAlignment="Center">Конец</TextBlock>
+                <DatePicker Grid.Row="3" Grid.Column="1" VerticalAlignment="Center" ></DatePicker>
 
-                <TextBlock Grid.Row="6" FontSize="15" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Center">Заметка</TextBlock>
-                <TextBox Grid.Row="6" Grid.Column="1" Background="Aqua" Height="75" VerticalAlignment="Center" Margin="10 0 10 0"></TextBox>
+                <TextBlock Grid.Row="4" FontSize="15" FontWeight="Bold"  VerticalAlignment="Center">Статус</TextBlock>
+                <ComboBox Grid.Row="4" Grid.Column="1" Background="White" VerticalAlignment="Center" >
+                    <TextBlock>В процессе</TextBlock>
+                    <TextBlock>Брошен</TextBlock>
+                    <TextBlock>Завершен</TextBlock>
+                </ComboBox>
+
+
+                <TextBlock Grid.Row="5" FontSize="15" FontWeight="Bold"  VerticalAlignment="Center">Оценка</TextBlock>
+                <TextBox Grid.Row="5" Grid.Column="1" Background="White" VerticalAlignment="Center" ></TextBox>
+
+                <TextBlock Grid.Row="6" FontSize="15" FontWeight="Bold" Margin="0 5 0 0">Заметка</TextBlock>
+                <TextBox Grid.Row="6" Grid.Column="0" Grid.ColumnSpan="2" Background="White" Margin="0 30 0 10" TextWrapping="Wrap"></TextBox>
 
 
 
-                <Button Background="#5D76CB" Grid.Row="7" Grid.Column="0"  FontSize="20" FontWeight="Bold" Content="Добавить"></Button>
-                <Button Background="Red" Grid.Row="7" Grid.Column="1" FontSize="20" FontWeight="Bold" Content="Отмена" ></Button>
-
-
+                <Button x:Name="butAddOrSave"  Background="#5D76CB" Grid.Row="7" Grid.Column="0" Width="90" HorizontalAlignment="Left"  FontSize="16" FontWeight="Bold" Content="Добавить" Click="butAddOrSave_Click" ></Button>
+                <Button x:Name="butCancel" Background="Red" Grid.Row="7" Grid.Column="1" Width="90" HorizontalAlignment="Right" FontSize="16" FontWeight="Bold" Content="Отмена" Click="butCancel_Click" ></Button>
 
 
             </Grid>
-
-
-
-
         </Viewbox>
-
-
-
     </Grid>
 </Window>
